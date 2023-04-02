@@ -1,5 +1,5 @@
 ## Maximilian Weiß
-<img src="foto.jpg" alt="Photo Maximilian Weiß">
+<img src="foto.jpg" width="50%" alt="Photo Maximilian Weiß">
 I am a Ph.D. candidate at the Bonn Graduate School of Economics at the University of Bonn. In my research, I analyze macroeconomic questions connecting evidence on the aggregate level with micro-level data, using structural models. I also work on computational methods for heterogeneous agent models.
 
 # Working papers
