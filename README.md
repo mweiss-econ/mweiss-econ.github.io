@@ -18,6 +18,6 @@ I am a Ph.D. candidate at the Bonn Graduate School of Economics at the Universit
 
 # CV
 You can find my CV <a href="CVenglish.pdf">here</a>.
-
+# Misc
 <a rel="me" href="https://econtwitter.net/@mweiss">Mastodon profile</a><br />
 <a href="https://econtwitter.net/invite/xWTLbM8N">Join Mastodon</a>
