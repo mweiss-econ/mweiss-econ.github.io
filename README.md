@@ -1,4 +1,3 @@
-# Maximilian Weiß
 <picture>
 <img src="foto.jpg" width="250px" alt="Photo Maximilian Weiß" style="padding-right: 20px;padding-bottom: 20px; float:left">
 </picture>
