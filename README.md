@@ -1,8 +1,8 @@
 # Maximilian Weiß
 <picture>
-<img src="foto.jpg" width="250px" alt="Photo Maximilian Weiß" style="padding: 20px;float:left">
+<img src="foto.jpg" width="250px" alt="Photo Maximilian Weiß" style="padding-right: 20px;padding-bottom: 20px; float:left">
 </picture>
-I am a Ph.D. candidate at the Bonn Graduate School of Economics at the University of Bonn. In my research, I analyze macroeconomic questions connecting evidence on the aggregate level with micro-level data, using structural models. I also work on computational methods for heterogeneous agent models.
+I am a Ph.D. candidate at the Bonn Graduate School of Economics at the University Bonn. In my research, I analyze macroeconomic questions connecting evidence on the aggregate level with micro-level data, using structural models. I also work on computational methods for heterogeneous agent models.
 
 ## Working papers
 * **Fundamental Stock Price Cycles**
