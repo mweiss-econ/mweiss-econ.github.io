@@ -404,23 +404,23 @@ By proposition \ref{prop:Euler}, then,
 Inserting this back into equation (\ref{eq:rhostep1}), using equation (\ref{eq:VbMU}), and collecting terms:
 \begin{align}
 \rho(b'|d',z)=&\left(\frac{div}{Rq}-1\right) R E_z[\lambda u'(c^{a,*}_1)+(1-\lambda)u'(c^{n,*}_1)] +\nonumber \\
-+&  E_z[u'(c^{a,*}_1)](\lambda + (1-\lambda)(q-1)) - (1-\lambda)div E_z[u'(c^{n,*}_1)] -\nonumber \\- &  Rq ( (R^d/R-\lambda) E_z[u'(c^{a,*}_1)] - (1-\lambda) E_z[u'(c^{n,*}_1)])\\
-= & E_z[u'(c^{a,*}_1)]\left(\lambda (R^d-1-R+1+Rq)+(1-\lambda)(q-1)-R^dq\right) + \nonumber \\
++&  E_z[u'(c^{a,*}_1)](\lambda + (1-\lambda)(q+div)) - (1-\lambda)div E_z[u'(c^{n,*}_1)] -\nonumber \\- &  Rq ( (R^d/R-\lambda) E_z[u'(c^{a,*}_1)] - (1-\lambda) E_z[u'(c^{n,*}_1)])\\
+= & E_z[u'(c^{a,*}_1)]\left(\lambda (R^d-1-R+1+Rq)+(1-\lambda)(q+div)-R^dq\right) + \nonumber \\
 +& E_z[u'(c^{n,*}_1)](1-\lambda)(R^d-1-R-div+Rq)\\
-= & E_z[u'(c^{a,*}_1)] \left( \lambda(LP - qLP) + (1-\lambda)(q-1-qR^d) \right)+\nonumber \\+ &E_z[u'(c^{n,*}_1)](1-\lambda)\left(LP - 1 - q(LP - 1)\right)\\
-=& q(1-\lambda) \left\{ E_z[u'(c^{a,*}_1)] (1-R^d) + E_z[u'(c^{n,*}_1)] (1-LP) \right\}- \nonumber \\
--& E_z[u'(c^{a,*}_1)]( 1-\lambda+\lambda(q-1)LP)-E_z[u'(c^{n,*}_1)](1-\lambda)(1-LP)
-\end{align}
-Using $\frac{\partial u'(c^{a,*}_1)}{\partial b'} = R u''(c^{a,*}_1)$ and $\frac{\partial u'(c^{n,*}_1)}{\partial b'} = R u''(c^{n,*}_1)$, the claim of the proposition holds iff
-\begin{align}
-&-E_z[u''(c^{a,*}_1)](1+\lambda(LP(q-1)-1)) - E_z[u''(c^{n,*}_1)](1-\lambda)(1-LP)\nonumber \\> &-q(1-\lambda) \left\{  E_z[u''(c^{n,*}_1)] (1-LP) -E_z[u''(c^{a,*}_1)] (R^d-1) \right\}\label{ineq:toshow}
+= & E_z[u'(c^{a,*}_1)] \left( \lambda(LP - qLP) + (1-\lambda)(q+div-qR^d) \right)+\nonumber \\+ &E_z[u'(c^{n,*}_1)](1-\lambda)\left(LP - 1 - q(LP - 1)\right)\\
+=& (1-q)\left(\lambda LP E_z[u'(c^{a,*}_1)] - (1-\lambda)(1-LP)E_z[u'(c^{n,*}_1)]\right)\\
 \end{align}
 
-Without loss of generality, normalize the steady state value of the price of capital to 1, i.e. $q=1$. Then, inequality (\ref{ineq:toshow}) simplifies to
+$\rho = 0$ for $q=1$?? THAT CANNOT BE...
+
+Using $\frac{\partial u'(c^{a,*}_1)}{\partial b'} = R u''(c^{a,*}_1)$ and $\frac{\partial u'(c^{n,*}_1)}{\partial b'} = R u''(c^{n,*}_1)$, the claim of the proposition holds iff
 \begin{align}
-    -(1-\lambda) E_z[u''(c^{a,*}_1)] > (1-\lambda) E_z[u''(c^{a,*}_1)](R^d-1)
+R(1-q)\left(\lambda LP E_z[u''(c^{a,*}_1)] - (1-\lambda)(1-LP)E_z[u''(c^{n,*}_1)]\right) > 0
+\label{ineq:toshow}
 \end{align}
-Note that $u''(\cdot)<0$ by assumption of a concave utility function. Hence, $E_z[u''(c^{a,*}_1)]<0$, and with $\lambda \in (0,1)$ and positive interest rates (by assumption), implying $R^d>1$ due to $LP>0$ by corollary \ref{corr:LPpos}, the claim follows.
+Note that $u''(\cdot)<0$ by assumption of a concave utility function. Hence, $E_z[u''(c^{s,*}_1)]<0, s=a,n$.
+
+To be continued...
 %First, I derive a necessary and sufficient condition for inequality (\ref{ineq:toshow}) to hold for a given, realized productivity level $z'$. Dividing by $-u''(c^{n,*}_1)$ yields
 %\begin{align}
 %\xi [1+\lambda(LP(q-1)-1)]+(1-\lambda)(1-LP)>q(1-\lambda)[(1-LP)+\xi(R^d-1)],
