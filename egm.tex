@@ -306,7 +306,7 @@ which, together with the Euler conditions (\ref{eq:Euler_b}) and (\ref{eq:Euler_
 \begin{equation}
 E_{t-1} R_t q_{t-1} u'(c_{t-1}(b,d,z)) = E_{t-1} (div_t+q_t) u'(c_{t-1}(b,d,z)) \Leftrightarrow E_{t-1}\left(R_t -R_t^d\right)=0,
 \end{equation}
-with $R_t^d := \frac{div_t+q_t}{q_{t-1}}$ as the gross return on illiquid assets. Hence, the ex-ante liquidity premium, $LP_{t-1} := E_{t-1}\left( R_t^d - R_t\right)$, is zero in the case of $\lambda \rightarrow 0$.
+with $R_t^d := \frac{div_t+q_t}{q_{t-1}}$ as the gross return on illiquid assets. Hence, the ex-ante liquidity premium, $LP_{t-1} := E_{t-1}\left( R_t^d - R_t\right)$, is zero in the case of $\lambda \rightarrow 1$.
 \section{Proofs}
 \begin{prop}\label{prop:Euler}
 In an economy with \textbf{certainty equivalence} with respect to \textbf{aggregate} risk, the ``modified Euler equation''
@@ -386,8 +386,8 @@ when $(b',d')$ are an optimal choice of a household with idiosyncratic productiv
 %\rho(b'|d',z) = \frac{LP}{R}\left( EV_1(b',d'|z) - \frac{u'(c^{a,*}(b,d,z))}{\beta}\right)\label{eq:rho}
 %\end{align}
 \begin{align}
-\rho(b'|d',z) =& \frac{EV_2(b',d'|z)}{q}-EV_1(b',d'|z) \\ \overset{ (\ref{eq:noarb})}{=}& \left( \frac{div}{Rq} - 1 \right) EV_1(b',d'|z) + E_z\left[ \lambda u'(c_1^{a,*}) + \beta (1-\lambda) EV_2(b_1^{n,*},d'|z')\right]\\
-\overset{(\ref{eq:wedge})}{=} &  \left( \frac{div}{Rq} - 1 \right) EV_1(b',d'|z) + E_z [ \lambda u'(c_1^{a,*}) +\nonumber \\ & (1-\lambda) (q u'(c_1^{a,*}) - div( u'(c_1^{n,*})-u'(c_1^{a,*}))-\omega) ]\label{eq:rhostep1}
+\rho(b'|d',z) =& \frac{EV_2(b',d'|z)}{q}-EV_1(b',d'|z) \\ \overset{ (\ref{eq:noarb})}{=}& \left( \frac{div}{Rq} - 1 \right) EV_1(b',d'|z) + E_z\left[ \lambda u'(c_1^{a,*}) + \frac{\beta}{q} (1-\lambda) EV_2(b_1^{n,*},d'|z')\right]\\
+\overset{(\ref{eq:wedge})}{=} &  \left( \frac{div}{Rq} - 1 \right) EV_1(b',d'|z) + E_z [ \lambda u'(c_1^{a,*}) +\nonumber \\ & (1-\lambda) \left(u'(c_1^{a,*}) - \frac{div}{q}( u'(c_1^{n,*})-u'(c_1^{a,*}))-\frac{\omega}{q}\right) ]\label{eq:rhostep1}
 \end{align}
 Next, I use proposition \ref{prop:Euler} together with the Euler equation of the liquid asset to derive an expression for $\omega$ that depends only on period 1-optimal choices and aggregate returns. By the Euler equation, it holds that
 \begin{align}
@@ -404,20 +404,13 @@ By proposition \ref{prop:Euler}, then,
 Inserting this back into equation (\ref{eq:rhostep1}), using equation (\ref{eq:VbMU}), and collecting terms:
 \begin{align}
 \rho(b'|d',z)=&\left(\frac{div}{Rq}-1\right) R E_z[\lambda u'(c^{a,*}_1)+(1-\lambda)u'(c^{n,*}_1)] +\nonumber \\
-+&  E_z[u'(c^{a,*}_1)](\lambda + (1-\lambda)(q+div)) - (1-\lambda)div E_z[u'(c^{n,*}_1)] -\nonumber \\- &  Rq ( (R^d/R-\lambda) E_z[u'(c^{a,*}_1)] - (1-\lambda) E_z[u'(c^{n,*}_1)])\\
-= & E_z[u'(c^{a,*}_1)]\left(\lambda (R^d-1-R+1+Rq)+(1-\lambda)(q+div)-R^dq\right) + \nonumber \\
-+& E_z[u'(c^{n,*}_1)](1-\lambda)(R^d-1-R-div+Rq)\\
-= & E_z[u'(c^{a,*}_1)] \left( \lambda(LP - qLP) + (1-\lambda)(q+div-qR^d) \right)+\nonumber \\+ &E_z[u'(c^{n,*}_1)](1-\lambda)\left(LP - 1 - q(LP - 1)\right)\\
-=& (1-q)\left(\lambda LP E_z[u'(c^{a,*}_1)] - (1-\lambda)(1-LP)E_z[u'(c^{n,*}_1)]\right)\\
++&  E_z[u'(c^{a,*}_1)](\lambda + (1-\lambda)(1+div/q)) - (1-\lambda)div E_z[u'(c^{n,*}_1)]/q -\nonumber \\- &  R ( (R^d/R-\lambda) E_z[u'(c^{a,*}_1)] - (1-\lambda) E_z[u'(c^{n,*}_1)])\\
+= & E_z[u'(c^{a,*}_1)]\left(1+\frac{div}{q}-R^d\right) = 0
 \end{align}
 
-$\rho = 0$ for $q=1$?? THAT CANNOT BE...
+NOTE THAT the FOCs HAVE to imply $\rho=0$
 
-Using $\frac{\partial u'(c^{a,*}_1)}{\partial b'} = R u''(c^{a,*}_1)$ and $\frac{\partial u'(c^{n,*}_1)}{\partial b'} = R u''(c^{n,*}_1)$, the claim of the proposition holds iff
-\begin{align}
-R(1-q)\left(\lambda LP E_z[u''(c^{a,*}_1)] - (1-\lambda)(1-LP)E_z[u''(c^{n,*}_1)]\right) > 0
-\label{ineq:toshow}
-\end{align}
+Using $\frac{\partial u'(c^{a,*}_1)}{\partial b'} = R u''(c^{a,*}_1)$ and $\frac{\partial u'(c^{n,*}_1)}{\partial b'} = R u''(c^{n,*}_1)$, ...
 Note that $u''(\cdot)<0$ by assumption of a concave utility function. Hence, $E_z[u''(c^{s,*}_1)]<0, s=a,n$.
 
 To be continued...
