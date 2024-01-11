@@ -6,7 +6,7 @@
 	- Newest version: <a href="WorkingPapers/technews.pdf">pdf</a>
 
 ## Work in progress
-* **Why Do Supply Disruptions Lead to Inflation?** (with Thomas Kohler, independent scholar, Jean-Paul L'Huillier, Brandeis University, and Gregory Phelan, Williams College)
+* **Understanding the Rise in Inflation: Demand or Supply?** (with Thomas Kohler, independent scholar, Jean-Paul L'Huillier, Brandeis University, and Gregory Phelan, Williams College)
 * **Second order perturbation of forward-looking state-space systems with heterogeneity** (with Christian Bayer, University of Bonn, and Ralph Luetticke, University of Tuebingen)
 * **The liquidity premium in heterogeneous agent models: an analytical framework**
 
