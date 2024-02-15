@@ -7,7 +7,7 @@
 
 ## Work in progress
 * **Understanding the Rise in Inflation: Demand or Supply?** (with Thomas Kohler, independent scholar, Jean-Paul L'Huillier, Brandeis University, and Gregory Phelan, Williams College)
-* **Second order perturbation of forward-looking state-space systems with heterogeneity** (with Christian Bayer, University of Bonn, and Ralph Luetticke, University of Tuebingen)
+* **An Endogenous Gridpoint Method for Distributional Dynamics** (with Christian Bayer, University of Bonn, Ralph Luetticke, and Yannis Winkelmann, both University of Tuebingen)
 * **The liquidity premium in heterogeneous agent models: an analytical framework**
 
 ## CV
