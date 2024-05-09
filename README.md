@@ -16,4 +16,4 @@
 * **The liquidity premium in heterogeneous agent models: an analytical framework**
 
 ## CV
-You can find my CV <a href="CVenglish.pdf">here</a>.
+You can find my CV <a href="CV_MW.pdf">here</a>.
