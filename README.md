@@ -12,7 +12,7 @@
     - Newest version: <a href="https://www.ralphluetticke.com/files/BLWW_May24.pdf">pdf</a>, <a href="https://cepr.org/publications/dp19067" target="_blank">CEPR Discussion Paper</a>
 
 ## Work in progress
-* **Understanding the Rise in Inflation: Demand or Supply?** (with Thomas Kohler, independent scholar, Jean-Paul L'Huillier, Brandeis University, and Gregory Phelan, Williams College)
+* **Why Do Supply Disruptions Lead to Inflation?** (with Thomas Kohler, independent scholar, Jean-Paul L'Huillier, Brandeis University, and Gregory Phelan, Williams College)
 * **The liquidity premium in heterogeneous agent models: an analytical framework**
 
 ## CV
