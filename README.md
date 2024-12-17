@@ -6,6 +6,7 @@
 	- Newest version: <a href="WorkingPapers/technews.pdf">pdf</a>
 	
 * **An Endogenous Gridpoint Method for Distributional Dynamics** (with Christian Bayer, University of Bonn, Ralph Luetticke, and Yannis Winkelmann, both University of Tuebingen)
+*Journal of Monetary Economics*, r&r
 
     - **Abstract.** The "histogram method" (Young, 2010), while the standard approach for analyzing distributional dynamics in heterogeneous agent models, is linear in optimal policies. We introduce a novel method that captures nonlinearities of distributional dynamics. This method solves the distributional dynamics by interpolation instead of integration, which is made possible by making the grid endogenous. It retains the tractability and speed of the histogram method, while increasing numerical efficiency even in the steady state and producing significant economic differences in scenarios with aggregate risk. We document this by studying aggregate investment risk with a third-order solution using perturbation techniques.
     
