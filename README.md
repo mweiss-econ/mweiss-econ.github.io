@@ -15,11 +15,7 @@
     
 * **Why Do Supply Disruptions Lead to Inflation?** (with Thomas Kohler, independent scholar, Jean-Paul L'Huillier, Brandeis University, and Gregory Phelan, Williams College)
 
-    - **Short Abstract.** According to anecdotal accounts, firms tend to justify price increases as a need to cover cost increases.
-
-Standard pricing models imply that firms do not only adjust to cost increases, but also to changes in spending (such as pent-up demand). We present a model where this is not necessarily the case.
-
-Our framework relies on a novel asymmetry between firms and consumers, where firms have more precise information about aggregate shocks. We discipline the model using a survey of firms during the post-pandemic reopening of the German economy in March 2021. In a calibrated version of the model supply shocks are responsible for most of the upward adjustment of prices.
+    - **Short Abstract.** According to anecdotal accounts, firms tend to justify price increases as a need to cover cost increases. Standard pricing models imply that firms do not only adjust to cost increases, but also to changes in spending (such as pent-up demand). We present a model where this is not necessarily the case. Our framework relies on a novel asymmetry between firms and consumers, where firms have more precise information about aggregate shocks. We discipline the model using a survey of firms during the post-pandemic reopening of the German economy in March 2021. In a calibrated version of the model supply shocks are responsible for most of the upward adjustment of prices.
 
     - Newest version: <a href="WorkingPapers/Covid_Pricing_Survey_Jan_2025.pdf">pdf</a>
 
