@@ -21,7 +21,7 @@
 
 ## Work in progress
 
-* **Disaster Risk, Heterogeneous Saving Behavior, and Wealth Inequality** (with Alexander Dietrich, Danmarks Nationalbank, and Gernot Müller, University of Tuebingen)
+* **Disaster Risk and Wealth Inequality** (with Alexander Dietrich, Danmarks Nationalbank, and Gernot Müller, University of Tuebingen)
 
 ## CV
 You can find my CV <a href="CV_MW.pdf">here</a>.
