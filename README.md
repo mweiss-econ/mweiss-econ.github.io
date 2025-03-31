@@ -9,7 +9,7 @@
 
     - *Journal of Monetary Economics*, r&r
 
-    - **Abstract.** Modeling continuous choices in heterogeneous agent models as ``lotteries'' over a discretized state space is standard practice (Young, 2010), but renders the distributional dynamics linear in optimal policies. We present a novel, simple method that captures nonlinearities and solves the distributional dynamics with interpolation instead of integration using the idea of an endogenous grid. Our approach solves for a stationary equilibrium as quickly as the lottery method for a given precision, outperforms it for linear dynamics, and accommodates nonlinear dynamics and aggregate risk. We demonstrate its efficacy by studying a model with aggregate investment risk with a third-order perturbation solution.
+    - **Abstract.** Modeling continuous choices in heterogeneous agent models as "lotteries" over a discretized state space is standard practice (Young, 2010), but renders the distributional dynamics linear in optimal policies. We present a novel, simple method that captures nonlinearities and solves the distributional dynamics with interpolation instead of integration using the idea of an endogenous grid. Our approach solves for a stationary equilibrium as quickly as the lottery method for a given precision, outperforms it for linear dynamics, and accommodates nonlinear dynamics and aggregate risk. We demonstrate its efficacy by studying a model with aggregate investment risk with a third-order perturbation solution.
     
     - Newest version: <a href="https://www.ralphluetticke.com/files/BLWW_March25.pdf">pdf</a>, <a href="https://cepr.org/publications/dp19067" target="_blank">CEPR Discussion Paper</a>
     
