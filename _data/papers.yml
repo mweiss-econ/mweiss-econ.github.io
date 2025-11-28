@@ -29,3 +29,9 @@
    links:
      - name: "PDF"
        url: "/WorkingPapers/technews.pdf"
+
+ - title: "Disaster Risk and Wealth Inequality"
+   coauthors:
+    - "Alexander Dietrich, Danmarks Nationalbank"
+    - "Gernot Müller, University of Tuebingen"
+   abstract: "The risk of disasters---whether natural, political, or financial---is reflected in GDP tail risk. Based on cross-country data, we first establish a robust link between GDP tail risk and wealth inequality. Next, to explain this pattern, we propose an incomplete markets model in which wealthier households tend to increase their savings in response to heightened tail risk, whereas lower-wealth households save less. This differential savings response exacerbates wealth inequality over time. Finally, using data from a survey-based randomized controlled trial (RCT), we corroborate the mechanism at the heart of the model: we establish a causal relationship between tail risk beliefs and household savings behavior, which systematically varies with wealth."
