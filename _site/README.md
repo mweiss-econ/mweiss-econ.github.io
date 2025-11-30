@@ -8,7 +8,9 @@
     {% endif %}
   - <a href="#" id="toggle-link-{{ forloop.index }}" onclick="toggleAbstract('abstract-{{ forloop.index }}', 'toggle-link-{{ forloop.index }}'); return false;">Show Abstract</a><br>
   <span id="abstract-{{ forloop.index }}" style="display:none;">{{ paper.abstract }}</span>
+  {% if paper.links %}
   - {% for link in paper.links %}<a href="{{ link.url }}" target="_blank">{{ link.name }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
+  {% endif %}
 {% endfor %}
 
 <script>
