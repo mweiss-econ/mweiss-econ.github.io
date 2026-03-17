@@ -24,6 +24,7 @@
    - "Gregory Phelan, Williams College"
    abstract: "Firms tend to justify price increases as necessary to cover rising costs. However, standard models imply that firms not only adjust prices to cost increases, but also to changes in spending. We present a model where, instead, there is differential adjustment depending on the type of shock. The model is disciplined using a firm survey, which shows that, towards the end of the pandemic, price increases were primarily a response to higher costs. In contrast, firms report not reacting to higher demand to avoid upsetting customers. Supply shocks are responsible for most of the upward adjustment of prices."
    journal_status: "submitted"
+   presentations: "SED (2025), VfS (2025), ifo Conference on Macroeconomics and Survey Data (2025)"
    links:
      - name: "PDF"
        url: "/WorkingPapers/Covid_Pricing_Survey-Feb2026.pdf"
@@ -32,6 +33,7 @@
 
  - title: "Fundamental Stock Price Cycles"
    abstract: "News shocks about higher future capital returns can explain stock price-booms and subsequent -busts in a two-asset, heterogeneous agent New Keynesian model. The portfolio choice between more liquid and less liquid forms of capital is key, as it allows for a time-varying illiquidity premium. The arrival of investment opportunities induces capital-rich households to hold more illiquid capital at a lower premium, in anticipation of higher future returns on it. The anticipated higher consumption risk due to less liquid portfolios increases the value of more liquid assets, like stocks. When capital returns mean-revert, capital-rich households rebalance their portfolios, which increases the illiquidity premium and causes stock prices to fall. Novel evidence from survey data on portfolio choices of capital-wealthy households during stock price boom-bust cycles supports the key mechanism of the model."
+   presentations: "YES (Yale, 2022), EEA-ESEM (2023), MMF (2023), EWMES (2024)"
    links:
      - name: "PDF"
        url: "/WorkingPapers/technews.pdf"
@@ -41,3 +43,4 @@
     - "Alexander Dietrich, Danmarks Nationalbank"
     - "Gernot Müller, University of Tuebingen"
    abstract: "The risk of disasters---whether natural, political, or financial---is reflected in GDP tail risk. Based on cross-country data, we first establish a robust link between GDP tail risk and wealth inequality. Next, to explain this pattern, we propose an incomplete markets model in which wealthier households tend to increase their savings in response to heightened tail risk, whereas lower-wealth households save less. This differential savings response exacerbates wealth inequality over time. Finally, using data from a survey-based randomized controlled trial (RCT), we corroborate the mechanism at the heart of the model: we establish a causal relationship between tail risk beliefs and household savings behavior, which systematically varies with wealth."
+   presentations: "Danmarks Nationalbank Research Seminar (2024), VfS (2025), EWMES (2025), EAYE (2026, scheduled)"
