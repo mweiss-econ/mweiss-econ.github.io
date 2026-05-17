@@ -22,11 +22,12 @@
    - "Thomas Kohler, Bochum University of Applied Sciences"
    - "Jean-Paul L'Huillier, Brandeis University"
    - "Gregory Phelan, Williams College"
-   abstract: "Firms tend to justify price increases as necessary to cover rising costs. However, standard models imply that firms not only adjust prices to cost increases, but also to changes in spending. We present a model where, instead, there is differential adjustment depending on the type of shock. The model is disciplined using a firm survey, which shows that, towards the end of the pandemic, price increases were primarily a response to higher costs. In contrast, firms report not reacting to higher demand to avoid upsetting customers. Supply shocks are responsible for most of the upward adjustment of prices."
+   abstract: "Firms tend to justify price increases as necessary to cover rising costs. Changes in consumer spending, instead, cannot serve as justification for price increases. We analyze how this asymmetry affects the decomposition of inflation into supply and demand factors. We base our analysis on a model that explains shock-dependent pricing, and extend it by deriving a sufficient statistic for relative inflation contributions. Novel survey data on the price-setting of German firms at the reopening of the economy post-COVID provides direct evidence for calibrating the model. We find that supply shocks are responsible for most of the upward adjustment of prices."
    presentations: "EEA-ESEM (2023), SED (2025), VfS (2025), SED (2026, scheduled)"
+   journal_status: "submitted"
    links:
      - name: "PDF"
-       url: "/WorkingPapers/Covid_Pricing_Survey-Feb2026.pdf"
+       url: "/WorkingPapers/Covid_Pricing_Survey-May2026.pdf"
      - name: "SSRN"
        url: "https://ssrn.com/abstract=5104017"
 
