@@ -1,3 +1,14 @@
+ - title: "Local Methods for Large Transfers"
+   coauthors:
+   - "Christian Bayer, University of Bonn"
+   - "Ralph Luetticke, University of Tuebingen"
+   - "Yannis Winkelmann, University of Tuebingen"
+   - "Luigi-Maria Briglia, University of Tuebingen"
+   abstract: "Bianchi and Kaplan (2026) show that linear methods can greatly overstate the effects of large fiscal transfers. The central object is the shift in the asset distribution after a transfer shock, particularly the fraction of households that cross the borrowing-constraint threshold. This is precisely what the distributional endogenous-grid method (DEGM) developed in Bayer et al. (2026) captures. We show that DEGM naturally extends to capture the nonlinear shift in the asset distribution with respect to transfer size. Our Nonlinear DEGM Update (NDU) iterates the distribution exactly for the first period or a short window of periods while maintaining first-order household policies. With a 10 percent transfer, impact output increases by 7 percent with the nonlinear solution, 20 percent with the linear solution, and 7 percent with our novel method at near-linear computational cost."
+   links:
+     - name: "PDF"
+       url: "/WorkingPapers/large_transfers.pdf"
+ 
  - title: "An Endogenous Gridpoint Method for Distributional Dynamics"
    coauthors:
    - "Christian Bayer, University of Bonn"
