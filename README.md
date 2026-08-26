@@ -13,7 +13,7 @@
   - presented at *{{ paper.presentations }}*
   {% endif %}
   {% if paper.links %}
-  - {% for link in paper.links %}<a href="{{ link.url }}" target="_blank">{{ link.name }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
+  - {% for link in paper.links %}{% if link.name == 'Cite' %}<a href="#" onclick="loadCitePopup('{{ link.url }}'); return false;">Cite</a>{% else %}<a href="{{ link.url }}" target="_blank">{{ link.name }}</a>{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   {% endif %}
 {% endfor %}
 
