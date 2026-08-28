@@ -3,7 +3,7 @@
    - "Christian Bayer, University of Bonn"
    - "Luigi-Maria Briglia, University of Tuebingen"
    - "Ralph Luetticke, University of Tuebingen"
-   - "Yannis Winkelmann, University of Tuebingen"
+   - "Yannik Winkelmann, University of Tuebingen"
    abstract: "Large fiscal transfers shift households between regions with high and low marginal propensities to consume (MPCs), resulting in nonlinear aggregate responses. We develop a Nonlinear DEGM Update (NDU) method that shifts the wealth distribution nonlinearly over a short time window while solving the aggregate economy using a fast, first-order state-space approximation. A 10 percent transfer of annual GDP increases output by 4.5 percent in the nonlinear and NDU solutions, but by 12.0 percent in the linear solution. The empirical liquid-wealth distribution around zero disciplines this nonlinearity and exhibits a strong asymmetry. A stochastic debt-entry cost closely reproduces this empirical pattern."
    links:
      - name: "Ungated"
@@ -15,7 +15,7 @@
    coauthors:
    - "Christian Bayer, University of Bonn"
    - "Ralph Luetticke, University of Tuebingen"
-   - "Yannis Winkelmann, University of Tuebingen"
+   - "Yannik Winkelmann, University of Tuebingen"
    abstract: "Modeling continuous choices in heterogeneous agent models as 'lotteries' over a discretized state space is standard practice (Young, 2010), but renders the distributional dynamics linear in optimal policies. We present a novel, simple method that captures nonlinearities and solves the distributional dynamics with interpolation instead of integration using the idea of an endogenous grid. Our approach solves for a stationary equilibrium as quickly as the lottery method for a given precision, outperforms it for linear dynamics, and accommodates nonlinear dynamics and aggregate risk. We demonstrate its efficacy by studying a model with aggregate investment risk with a third-order perturbation solution."
    journal_status: "published"
    journal: "Journal of Monetary Economics"
