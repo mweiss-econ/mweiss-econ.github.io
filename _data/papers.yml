@@ -5,11 +5,16 @@
    - "Ralph Luetticke, University of Tuebingen"
    - "Yannik Winkelmann, University of Tuebingen"
    abstract: "Large fiscal transfers shift households between regions with high and low marginal propensities to consume (MPCs), resulting in nonlinear aggregate responses. We develop a Nonlinear DEGM Update (NDU) method that shifts the wealth distribution nonlinearly over a short time window while solving the aggregate economy using a fast, first-order state-space approximation. A 10 percent transfer of annual GDP increases output by 4.5 percent in the nonlinear and NDU solutions, but by 12.0 percent in the linear solution. The empirical liquid-wealth distribution around zero disciplines this nonlinearity and exhibits a strong asymmetry. A stochastic debt-entry cost closely reproduces this empirical pattern."
+   journal_status: "submitted"
    links:
      - name: "Ungated"
        url: "https://www.ralphluetticke.com/files/BBLWW_2026.pdf"
+     - name: "CEPR"
+       url: "https://cepr.org/publications/dp21913"
      - name: "Github Repo"
        url: "https://github.com/mweiss-econ/large_transfers"
+     - name: "Cite"
+       url: "BBLWW.bib"
  
  - title: "An Endogenous Gridpoint Method for Distributional Dynamics"
    coauthors:
